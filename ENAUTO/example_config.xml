@@ -1,0 +1,23 @@
+<config xmlns="urn:ietf:params:xml:ns:netconf:base:1.0">
+  <native xmlns="http://cisco.com/ns/yang/Cisco-IOS-XE-native">
+    <interface>
+      <Loopback>
+        <name>4</name>
+        <description>ME HICIERON CON NETCONF</description>
+          <ip>
+            <address>
+              <primary>
+                <address>4.3.2.1</address>
+                <mask>255.255.255.255</mask>
+              </primary>
+            </address>
+          </ip>
+          <logging>
+          <event>
+            <link-status/>
+          </event>
+        </logging>
+      </Loopback>
+    </interface>
+  </native>
+</config>

@@ -1,0 +1,27 @@
+<empleados>
+	<empleado cedula="40200499362">
+		<nombre>"Jhon el Esquisofrenico"</nombre>
+		<edad>25</edad>
+		<empresa>"Spotify"</empresa>
+		<departamento>"Baraje"</departamento>
+		<habilidades>
+			"Joder"
+			"Hablar mucho"
+			"Molestar"
+			"Barajar"
+		</habilidades>
+	</empleado>
+
+	<empleado cedula="40253396723">
+		<nombre>"Maria Moñito"</nombre>
+		<edad>45</edad>
+		<empresa>"Netflix"</empresa>
+		<departamento>"Cuentos"</departamento>
+		<habilidades>
+			"Joder"
+			"Hablar mucho"
+			"Molestar"
+			"Barajar"
+		</habilidades>
+	</empleado>
+</empleados>

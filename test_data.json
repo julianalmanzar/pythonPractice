@@ -1,0 +1,573 @@
+[  
+  {
+    "_index": "packetbeat-7.10.2-2022.04.18-000001",
+    "_type": "_doc",
+    "_id": "QqxZPYABj0u6R-YdaLNm",
+    "_version": 1,
+    "_score": null,
+    "fields": {
+      "dns.type": [
+        "answer"
+      ],
+      "dns.answers_count": [
+        5
+      ],
+      "event.category": [
+        "network_traffic",
+        "network"
+      ],
+      "host.os.name.text": [
+        "CentOS Linux"
+      ],
+      "server.ip": [
+        "172.20.70.115"
+      ],
+      "dns.answers.data": [
+        "alt3.aspmx.l.google.com",
+        "alt2.aspmx.l.google.com",
+        "aspmx.l.google.com",
+        "alt4.aspmx.l.google.com",
+        "alt1.aspmx.l.google.com"
+      ],
+      "host.hostname": [
+        "MSP-VS-DNS-01"
+      ],
+      "type": [
+        "dns"
+      ],
+      "host.mac": [
+        "00:50:56:b7:5a:ac"
+      ],
+      "dns.answers.type": [
+        "MX",
+        "MX",
+        "MX",
+        "MX",
+        "MX"
+      ],
+      "dns.answers.preference": [
+        10,
+        5,
+        1,
+        10,
+        5
+      ],
+      "host.os.version": [
+        "7 (Core)"
+      ],
+      "dns.flags.authentic_data": [
+        false
+      ],
+      "dns.flags.authoritative": [
+        true
+      ],
+      "dns.additionals_count": [
+        0
+      ],
+      "host.os.name": [
+        "CentOS Linux"
+      ],
+      "dns.flags.checking_disabled": [
+        false
+      ],
+      "source.ip": [
+        "172.20.70.1"
+      ],
+      "agent.name": [
+        "MSP-VS-DNS-01"
+      ],
+      "network.community_id": [
+        "1:7n7Fbhwi8gEa+iJHnyx7WpVYsik="
+      ],
+      "host.name": [
+        "MSP-VS-DNS-01"
+      ],
+      "dns.answers.ttl": [
+        3600,
+        3600,
+        3600,
+        3600,
+        3600
+      ],
+      "event.kind": [
+        "event"
+      ],
+      "dns.answers.class": [
+        "IN",
+        "IN",
+        "IN",
+        "IN",
+        "IN"
+      ],
+      "method": [
+        "QUERY"
+      ],
+      "resource": [
+        "ministeriodesalud.gob.do"
+      ],
+      "query": [
+        "class IN, type MX, ministeriodesalud.gob.do"
+      ],
+      "client.ip": [
+        "172.20.70.1"
+      ],
+      "agent.hostname": [
+        "MSP-VS-DNS-01"
+      ],
+      "dns.answers.name": [
+        "ministeriodesalud.gob.do",
+        "ministeriodesalud.gob.do",
+        "ministeriodesalud.gob.do",
+        "ministeriodesalud.gob.do",
+        "ministeriodesalud.gob.do"
+      ],
+      "host.architecture": [
+        "x86_64"
+      ],
+      "dns.question.top_level_domain": [
+        "gob.do"
+      ],
+      "dns.op_code": [
+        "QUERY"
+      ],
+      "source.port": [
+        59566
+      ],
+      "agent.id": [
+        "bd41f72e-3ed3-4495-b23a-c42f75836ed3"
+      ],
+      "dns.flags.recursion_available": [
+        false
+      ],
+      "bytes_out": [
+        171
+      ],
+      "host.containerized": [
+        false
+      ],
+      "client.port": [
+        59566
+      ],
+      "ecs.version": [
+        "1.5.0"
+      ],
+      "agent.version": [
+        "7.10.2"
+      ],
+      "destination.bytes": [
+        171
+      ],
+      "host.os.family": [
+        "redhat"
+      ],
+      "event.start": [
+        "2022-04-18T15:36:54.334Z"
+      ],
+      "dns.question.etld_plus_one": [
+        "ministeriodesalud.gob.do"
+      ],
+      "status": [
+        "OK"
+      ],
+      "dns.opt.udp_size": [
+        1232
+      ],
+      "dns.question.class": [
+        "IN"
+      ],
+      "server.bytes": [
+        171
+      ],
+      "destination.port": [
+        53
+      ],
+      "bytes_in": [
+        53
+      ],
+      "event.end": [
+        "2022-04-18T15:36:54.335Z"
+      ],
+      "dns.flags.recursion_desired": [
+        false
+      ],
+      "host.ip": [
+        "172.20.70.115"
+      ],
+      "agent.type": [
+        "packetbeat"
+      ],
+      "network.protocol": [
+        "dns"
+      ],
+      "related.ip": [
+        "172.20.70.1",
+        "172.20.70.115"
+      ],
+      "host.os.kernel": [
+        "3.10.0-1160.36.2.el7.x86_64"
+      ],
+      "dns.header_flags": [
+        "AA",
+        "DO"
+      ],
+      "server.port": [
+        53
+      ],
+      "dns.question.registered_domain": [
+        "ministeriodesalud.gob.do"
+      ],
+      "network.bytes": [
+        224
+      ],
+      "dns.opt.version": [
+        "0"
+      ],
+      "dns.authorities_count": [
+        0
+      ],
+      "network.direction": [
+        "inbound"
+      ],
+      "dns.question.name": [
+        "ministeriodesalud.gob.do"
+      ],
+      "host.id": [
+        "3f626cda624c4ddeafba6bbc36ec0d7b"
+      ],
+      "network.type": [
+        "ipv4"
+      ],
+      "source.bytes": [
+        53
+      ],
+      "dns.id": [
+        "16467"
+      ],
+      "host.os.codename": [
+        "Core"
+      ],
+      "dns.question.type": [
+        "MX"
+      ],
+      "dns.opt.do": [
+        true
+      ],
+      "destination.ip": [
+        "172.20.70.115"
+      ],
+      "network.transport": [
+        "udp"
+      ],
+      "event.duration": [
+        254000
+      ],
+      "dns.flags.truncated_response": [
+        false
+      ],
+      "@timestamp": [
+        "2022-04-18T15:36:54.334Z"
+      ],
+      "host.os.platform": [
+        "centos"
+      ],
+      "client.bytes": [
+        53
+      ],
+      "event.type": [
+        "connection",
+        "protocol"
+      ],
+      "agent.ephemeral_id": [
+        "76b249c1-cb8a-4b7c-92c3-dd331ad80b2d"
+      ],
+      "dns.response_code": [
+        "NOERROR"
+      ],
+      "dns.opt.ext_rcode": [
+        "NOERROR"
+      ],
+      "event.dataset": [
+        "dns"
+      ]
+    },
+    "sort": [
+      1650296214334
+    ]
+  },
+  {
+    "_index": "packetbeat-7.10.2-2022.04.18-000001",
+    "_type": "_doc",
+    "_id": "fK5dPYABj0u6R-YdbpGL",
+    "_version": 1,
+    "_score": null,
+    "fields": {
+      "dns.type": [
+        "answer"
+      ],
+      "dns.answers_count": [
+        1
+      ],
+      "event.category": [
+        "network_traffic",
+        "network"
+      ],
+      "dns.question.subdomain": [
+        "consultanomina"
+      ],
+      "host.os.name.text": [
+        "CentOS Linux"
+      ],
+      "server.ip": [
+        "10.255.119.115"
+      ],
+      "dns.answers.data": [
+        "191.97.105.166"
+      ],
+      "host.hostname": [
+        "OPTIC-VS-DNS-01"
+      ],
+      "type": [
+        "dns"
+      ],
+      "host.mac": [
+        "00:50:56:b8:9b:5b"
+      ],
+      "dns.answers.type": [
+        "A"
+      ],
+      "host.os.version": [
+        "7 (Core)"
+      ],
+      "dns.flags.authentic_data": [
+        false
+      ],
+      "dns.flags.authoritative": [
+        true
+      ],
+      "dns.additionals_count": [
+        0
+      ],
+      "host.os.name": [
+        "CentOS Linux"
+      ],
+      "dns.flags.checking_disabled": [
+        false
+      ],
+      "source.ip": [
+        "173.194.97.8"
+      ],
+      "agent.name": [
+        "OPTIC-VS-DNS-01"
+      ],
+      "network.community_id": [
+        "1:EXMAjFAR4+pDtaAnVm8iS9Hz86k="
+      ],
+      "host.name": [
+        "OPTIC-VS-DNS-01"
+      ],
+      "dns.answers.ttl": [
+        1
+      ],
+      "event.kind": [
+        "event"
+      ],
+      "dns.answers.class": [
+        "IN"
+      ],
+      "method": [
+        "QUERY"
+      ],
+      "resource": [
+        "consultanomina.msp.gob.do"
+      ],
+      "query": [
+        "class IN, type A, consultanomina.msp.gob.do"
+      ],
+      "client.ip": [
+        "173.194.97.8"
+      ],
+      "agent.hostname": [
+        "OPTIC-VS-DNS-01"
+      ],
+      "dns.answers.name": [
+        "consultanomina.msp.gob.do"
+      ],
+      "host.architecture": [
+        "x86_64"
+      ],
+      "dns.question.top_level_domain": [
+        "gob.do"
+      ],
+      "dns.op_code": [
+        "QUERY"
+      ],
+      "source.port": [
+        53201
+      ],
+      "agent.id": [
+        "9dc2de0a-e795-4b01-8ee3-d5f6cf0512f0"
+      ],
+      "dns.flags.recursion_available": [
+        false
+      ],
+      "bytes_out": [
+        70
+      ],
+      "host.containerized": [
+        false
+      ],
+      "client.port": [
+        53201
+      ],
+      "ecs.version": [
+        "1.5.0"
+      ],
+      "agent.version": [
+        "7.10.2"
+      ],
+      "destination.bytes": [
+        70
+      ],
+      "host.os.family": [
+        "redhat"
+      ],
+      "event.start": [
+        "2022-04-18T15:57:07.923Z"
+      ],
+      "dns.question.etld_plus_one": [
+        "msp.gob.do"
+      ],
+      "dns.resolved_ip": [
+        "191.97.105.166"
+      ],
+      "status": [
+        "OK"
+      ],
+      "dns.opt.udp_size": [
+        1232
+      ],
+      "dns.question.class": [
+        "IN"
+      ],
+      "server.bytes": [
+        70
+      ],
+      "destination.port": [
+        53
+      ],
+      "bytes_in": [
+        54
+      ],
+      "event.end": [
+        "2022-04-18T15:57:07.924Z"
+      ],
+      "dns.flags.recursion_desired": [
+        false
+      ],
+      "host.ip": [
+        "10.255.119.115",
+        "fe80::1321:d8d:393b:a88f"
+      ],
+      "agent.type": [
+        "packetbeat"
+      ],
+      "network.protocol": [
+        "dns"
+      ],
+      "related.ip": [
+        "173.194.97.8",
+        "10.255.119.115",
+        "191.97.105.166"
+      ],
+      "host.os.kernel": [
+        "3.10.0-1160.36.2.el7.x86_64"
+      ],
+      "dns.header_flags": [
+        "AA",
+        "DO"
+      ],
+      "server.port": [
+        53
+      ],
+      "dns.question.registered_domain": [
+        "msp.gob.do"
+      ],
+      "network.bytes": [
+        124
+      ],
+      "dns.opt.version": [
+        "0"
+      ],
+      "dns.authorities_count": [
+        0
+      ],
+      "network.direction": [
+        "inbound"
+      ],
+      "dns.question.name": [
+        "consultanomina.msp.gob.do"
+      ],
+      "host.id": [
+        "3f626cda624c4ddeafba6bbc36ec0d7b"
+      ],
+      "network.type": [
+        "ipv4"
+      ],
+      "source.bytes": [
+        54
+      ],
+      "dns.id": [
+        "34853"
+      ],
+      "host.os.codename": [
+        "Core"
+      ],
+      "dns.question.type": [
+        "A"
+      ],
+      "dns.opt.do": [
+        true
+      ],
+      "destination.ip": [
+        "10.255.119.115"
+      ],
+      "network.transport": [
+        "udp"
+      ],
+      "event.duration": [
+        1355000
+      ],
+      "dns.flags.truncated_response": [
+        false
+      ],
+      "@timestamp": [
+        "2022-04-18T15:57:07.923Z"
+      ],
+      "host.os.platform": [
+        "centos"
+      ],
+      "client.bytes": [
+        54
+      ],
+      "event.type": [
+        "connection",
+        "protocol"
+      ],
+      "agent.ephemeral_id": [
+        "89c67698-67ab-49ef-a1ca-afc18a820abd"
+      ],
+      "dns.response_code": [
+        "NOERROR"
+      ],
+      "dns.opt.ext_rcode": [
+        "NOERROR"
+      ],
+      "event.dataset": [
+        "dns"
+      ]
+    },
+    "sort": [
+      1650297427923
+    ]
+  }
+]
